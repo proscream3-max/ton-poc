@@ -57,3 +57,12 @@ Install dependencies:
 
 ```bash
 npm install
+Run exploit test:
+
+```bash
+npm test
+Or run only the exploit PoC:
+
+```bash
+npx jest tests/exploit.spec.ts
+```
